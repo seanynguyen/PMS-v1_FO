@@ -1,0 +1,1399 @@
+/*@charset"utf-8";
+
+/* ==========================================================================
+   Responsive CSS
+   ========================================================================== */
+
+/* #Tablet (Landscape) 1024px */
+
+/* -------------------------------------------------------------------------- */
+ @media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+/*mycollection page*/
+    .statistics-label {
+        margin-right: 5px;
+    }
+
+    .btn-post-new-wrap .col-md-12 button{
+        margin-bottom: 15px;
+    }
+
+    .item-name{
+        text-align: left;
+    }
+
+    .comic-statistics-wrap .col-md-3{
+        width: 22%;
+    }
+/*end mycollection page*/
+
+/*newchapter page*/
+.create-chapter-wrap .col-md-3 input {
+    max-width: 51px;
+}
+
+.chap-no {
+    max-width: 51px;
+}
+/*end newchapter page*/
+
+/*new story page*/
+    .up-from-url-btn span{
+        margin-left: 30px;
+    }
+
+    .up-from-pc-btn span{
+        margin-left: 30px;
+    }
+
+    .up-from-url-btn img{
+        margin-right: 30px;
+    }
+
+    .up-from-pc-btn img{
+        margin-right: 30px;
+    }
+/*end new story page*/
+
+/*login page*/
+    .form-wrap{
+        width: 60%;
+        margin-top: 80px;
+    }
+/*end login page*/
+
+/*login-1 page*/
+    .register .span-register-1{
+        left: 241px;
+    }
+
+    .register .span-register-2{
+        left: 398px;
+    }
+
+    .register a{      
+        left: 304px;
+    }
+    .password a {
+       left: 114px;
+    } 
+/*end login-1 page*/
+
+/***********home page*************/
+    .fanpage{
+        width: 300px !important;
+    }
+
+    .item{
+        margin-right: 15px !important;
+        margin-left: 26px !important;
+    }
+
+    .login-comic {
+        width: 10%;
+    }
+
+    .blog-content h5{
+        margin-top: 0px;
+        line-height: 12px !important;
+        margin-bottom: 10px;
+    }
+
+    .blog-content p{
+        margin-top: 0px;
+        line-height: 15px !important;
+        margin-top: 0px !important;
+    }
+
+    .blog-content h6{
+        margin-top: 10px;
+        margin: 0px;
+    }
+/***********end home page*************/
+
+/***********home login*************/
+
+    .avatar {
+        margin-right: -20% !important;
+    }
+
+    .messenger{
+        margin-left: 64% !important;
+    }
+
+    .wrap-avatar{
+        min-width: 130px;
+        margin-left: -67px;
+    }
+
+    .wrap-content-notification{
+        width: 240;
+        margin-left: -21px;
+    }
+
+    .wrap-content-messenger {
+        max-width: 230px !important;
+        margin-left: -95% !important;
+    }
+
+    .active-dropdown a{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .mess-dropdown a{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .menu-link{
+        display: none;
+    }
+
+    .logo-comic{
+        margin-top: 30px;
+    }
+
+    .login-comic-active{
+        width: 35% !important;
+    }
+
+    .notification{
+        margin-left: 35%;
+        margin-right: 42%;
+    }
+
+/***********end home login*************/
+
+/***************list-title******************/
+    
+    .menu-list-title li {
+        padding-right: 20px;
+    }
+
+    .list-alphabeta li {
+        padding-right: 8px;
+    }
+
+
+/***********detail-chapter*************/
+
+    .search-chapter{
+        max-width: 275px !important;
+    }
+
+    .like-facebook{
+        width: 80% !important;
+    }
+
+
+}
+/* #Tablet (Portrait) 768px */
+    
+    
+/* -------------------------------------------------------------------------- */
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/*mycollection page*/
+    .comic-statistics-wrap .col-md-3 {
+        width: 20%;
+        float: left;
+    }
+
+    .comic-cover .col-md-3{
+        width: 30%;
+        float: left;
+    }
+
+    .btn-post-new-wrap{
+        margin-bottom: 15px;
+    }
+
+    .item-name{
+        text-align: left;
+    }
+/*end mycollection page*/
+
+/*user page*/
+    .info{
+        padding-left: 0px;
+    }
+    .username{
+        padding-left: 15px;
+    }
+/*end user page*/
+
+/*followlist page*/
+
+    .follow-list-header .col-md-8{
+        width: 60%;
+        float: left;
+    }
+
+    .follow-list-header .col-md-4{
+        width: 40%;
+        float: right;
+    }
+
+    .follow-list-wrap .col-md-5{
+        width: 50%;
+        float: left;
+    }
+
+    .follow-list-wrap .col-md-3{
+        width: 20%;
+        float: left;
+    }
+
+    .follow-list-wrap .col-md-4{
+        width: 30%;
+        float: right;
+    }
+
+
+/*end followlist page*/
+
+/*linkchapter page*/
+    .input-page-num span {
+        width: auto;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .link-wrap .col-md-8{
+        width: 100%;
+    }
+/*end linkchapter page*/
+
+/*newchapter page*/
+    
+    .create-chapter-wrap .col-md-3{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .create-chapter-wrap .col-md-3:last-child{
+        padding-left: 30px;
+    }
+
+    .create-chapter-wrap .col-md-6{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .create-chapter-wrap .col-md-3 input {
+        max-width: 75%;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .create-chapter-wrap .col-md-6 input {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .create-chapter-wrap .col-md-3 .btn-create-chapter {
+        max-width: 100%;
+        margin-right: 15px;
+    }
+    
+    .chapter-wrap .col-md-3{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .chapter-wrap .col-md-3:last-child{
+        padding-left: 30px;
+    }
+
+    .chapter-wrap .col-md-6{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .chap-no{
+        max-width: 75%;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .chap-name{
+        max-width: 100%;
+        margin-bottom: 15px;
+        width: auto; 
+        float: left;
+    }
+
+    .btn-edit-chapter {
+        max-width: 100%;
+        margin-right: 15px;
+        width: 240px; 
+        float: right;
+    }
+
+    .btn-upload-chapter {
+        max-width: 100%;
+        margin-right: 15px;
+        width: 240px; 
+        float: right;
+    }
+/*end newchapter page*/
+
+/*new story page*/
+    .up-from-url-btn span{
+        margin-left: 65px;
+    }
+
+    .up-from-pc-btn span{
+        margin-left: 65px;
+    }
+
+    .up-from-url-btn img{
+        margin-right: 65px;
+    }
+
+    .up-from-pc-btn img{
+        margin-right: 65px;
+    }
+/*end new story page*/
+
+/*login page*/
+    .logo{
+        margin-left: 75px;
+    }
+    .form-wrap{
+        width: 80%;
+        margin-top: 120px;
+    }
+/*end login page*/
+
+/*login-1 page*/
+    .fancyInput div {
+        font-size: 35px;
+    }
+    .register{
+        top: 600px;
+    }
+    .register .span-register-1{
+        left: 181px;
+    }
+
+    .register .span-register-2{
+        left: 338px;
+    }
+
+    .register a{      
+        left: 244px;
+    }
+    .password a {
+       left: 114px;
+    }
+/*end login-1 page*/
+
+/*item-detail page*/
+    .follow-btn{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .favorite-btn{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .comic-info li {
+        margin-bottom: 13px;
+    }
+
+    .chap-list .col-md-8{
+        width: 60%;
+        float: left;
+    }
+
+    .chap-list .col-md-2{
+        width: 20%;
+        float: left;
+    }
+/*end item-detail page*/
+
+/***********home page*************/
+
+    .fanpage{
+        width: 300px !important;
+        margin-top: 30px;
+        margin-left: -80px;
+    }
+
+    .footer-top{
+        margin-top: 160px !important;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .category-comic {
+        margin-bottom: 160px;
+    }
+/***********end home page*************/
+
+/***********home login*************/
+
+    .avatar {
+        margin-right: -55px;
+    }
+
+    .menu-header-comic {
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+   /* .wrap-content-notification {
+        margin-left: 85px;
+    }*/
+
+    .wrap-content-messenger {
+        max-width: 230px;
+        margin-left: -70%;
+    }
+
+    .active-dropdown a {
+        padding-left: 19px !important;
+        padding-right: 16px !important;
+    }
+
+    .mess-dropdown a {
+        padding-right: 39px !important;
+        padding-left: 20px !important;
+    }
+
+    .wrap-avatar{
+        min-width: 130px;
+        margin-left: -28px;
+    }
+
+    label[for="nav-trigger"]{
+        display: none;
+    }
+
+    .menu-link{
+        display: none;
+    }
+
+    .login-comic-active{
+        width: 50%;
+    }
+
+    .logo-comic{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .messenger{
+        margin-left: 60%;
+    }
+
+    .notification{
+        margin-left: 40%;
+        margin-right: 47%;
+    }
+
+/***********end home login*************/
+
+/***************list-title******************/
+    
+    .menu-list-title li {
+        padding-right: 25px;
+        padding-left: 27px;
+    }
+
+    .list-alphabeta li {
+        padding-right: 9px;
+        margin-left: 2px;
+    }
+
+    .menu-list-title {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+/***********detail-chapter*************/
+
+    .search-chapter{
+        max-width: 217px !important;
+    }
+
+    .select-chapter {
+        max-width: 70% !important;
+    }
+
+    .like-facebook{
+        width: 70% !important;
+    }
+
+    
+}
+/* #Mobile (Landscape) 480px */
+    
+/* -------------------------------------------------------------------------- */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/*mycollection page*/
+    .comic-statistics-wrap .col-md-3 {
+        width: 22%;
+        float: left;
+    }
+
+    .comic-cover .col-md-3{
+        width: 40%;
+        float: left;
+        margin-left:30px;
+    }
+
+    .btn-post-new-wrap{
+        margin-bottom: 15px;
+    }
+
+    .item-name{
+        text-align: left;
+    }
+/*end mycollection page*/
+
+/*user page*/
+    .info{
+        padding-left: 0px;
+    }
+    .username{
+        padding-left: 15px;
+    }
+/*end user page*/
+
+/*followlist page*/
+
+    .follow-list-header .col-md-8{
+        width: 60%;
+        float: left;
+    }
+
+    .follow-list-header .col-md-4{
+        width: 40%;
+        float: right;
+    }
+
+    .follow-list-wrap .col-md-5{
+        width: 50%;
+        float: left;
+    }
+
+    .follow-list-wrap .col-md-3{
+        width: 20%;
+        float: left;
+        padding-left: 15px;
+    }
+
+    .follow-list-wrap .col-md-4{
+        width: 30%;
+        float: right;
+    }
+/*end followlist page*/
+
+
+/*linkchapter page*/
+    .input-page-num span {
+        width: auto;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .link-wrap .col-md-8{
+        width: 100%;
+    }
+/*end linkchapter page*/
+
+/*newchapter page*/
+.create-chapter-wrap .col-md-3 input {
+    max-width: 75%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.create-chapter-wrap .col-md-6 input {
+    max-width: 100%;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.create-chapter-wrap .col-md-3 .btn-create-chapter {
+    max-width: 100%;
+    margin-right: 15px;
+}
+
+.create-chapter-wrap .col-md-3:last-child{
+    padding-left: 30px;
+}
+
+.chapter-wrap .col-md-3:last-child{
+    padding-left: 30px;
+}
+.chap-no{
+    max-width: 75%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.chap-name{
+    max-width: 100%;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.btn-edit-chapter {
+    max-width: 100%;
+    margin-right: 15px;
+}
+
+.btn-upload-chapter {
+    max-width: 100%;
+    margin-right: 15px;
+}
+/*end newchapter page*/
+
+/*new story page*/
+
+.back-top{
+    bottom: 15px;
+}
+
+.up-from-url-btn{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.up-from-pc-btn{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.up-from-url-btn span{
+    margin-left: 145px;
+}
+
+.up-from-pc-btn span{
+    margin-left: 145px;
+}
+
+.up-from-url-btn img{
+    margin-right: 145px;
+}
+
+.up-from-pc-btn img{
+    margin-right: 145px;
+}
+/*end new story page*/
+
+/*login page*/
+    .logo{
+        margin-left: 25px;
+        background-size: 50%;
+    }
+    .form-wrap{
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .login-form-textbox{
+        font-size: 30px;   
+        height: 54px;
+        margin-bottom: 40px;
+    }
+/*end login page*/
+
+/*login-1 page*/
+    .label{
+        font-size: 18px;
+    }
+    #wrap{ 
+        width: 100%;
+    }
+    .logo-1{
+        background-size: 50%;
+        margin-left: 40px;
+    }
+    .fancyInput div {
+        font-size: 25px;
+    }
+    .register{
+        top: 470px;
+    }
+
+    .register .span-register-1{
+        left: 139px;
+        font-size: 18px;
+    }
+
+    .register .span-register-2{
+        left: 256px;
+        font-size: 18px;
+    }
+
+    .register a{      
+        left: 186px;
+        font-size: 18px;
+    }
+    .password a {
+       left: 84px;
+       font-size: 18px;
+    }
+
+    #content.email{
+        height: 50% !important;
+        top: 120px;
+    }
+
+    #content.password{
+        height: 50% !important;
+        top: 240px;
+    }
+
+    #content.login{
+        height: 50% !important;
+        top: 356px;
+    }
+/*end login-1 page*/
+
+/*item-detail page*/
+    .comic-image-wrap{
+        width: 100%;
+    }
+
+    .comic-image{
+        margin-bottom: 40px;
+    }
+
+    .chap-list .col-md-8{
+        width: 60%;
+        float: left;
+    }
+
+    .chap-list .col-md-2{
+        width: 20%;
+        float: left;
+    }
+/*end item-detail page*/
+
+/**************home page*************/
+    ul.main-nav li.active{
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 50px;
+    }
+
+    .menu-header-comic{
+        width: 100%;
+    }
+
+    ul.main-nav li.active a:hover{
+        border-radius: 0px;
+    }
+
+    ul.main-nav li{
+        width: 99%;
+        border-radius: 0px;
+    }
+
+    ul.main-nav li a{
+        padding-left: 25px;
+    }
+
+    ul.main-nav li a:hover{
+        border-radius: 0px;
+    }
+
+    .fanpage{
+        width: 300px !important;
+        margin-top: 50px;
+        margin-left: 50px;
+        display: inline-block;
+    }
+
+    .icon-menu-list{
+        font-size: 20px;
+        color: #acacac;
+        border: 1px solid #6c6969;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .list-category-comic li{
+        min-width: 200px;
+    }
+
+    .footer-top{
+        margin-top: 160px !important;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .facebook-fanpage{
+        top: 0px;
+        margin-top: 320px;
+    }
+
+    .list-category-comic li {
+        display: inline-block;
+        width: 50%;
+        min-width: 0px;
+    }
+/**************end home page*************/
+
+/**************home login*************/
+    .login-comic-active {
+        margin-left: -32px;
+        display: none;
+    }
+
+    .icon-notification{
+        margin-left: -80px;
+    }
+
+    .avatar{
+        margin-right: -54px;
+        display: none;
+    }
+
+    .menu-header-comic {
+        margin-top: 0px;
+    }
+
+    .add-new-comic{
+        display: none;
+    }
+
+    .notification {
+        display: none;
+    }
+
+    .menu-comic{
+        display: none;
+    }
+
+    .menu-offcanvas{
+        display: block;
+    }
+
+    .menu-link{
+        display: block;
+    }
+
+    .logo-comic{
+        margin-top: 60px;
+    }
+
+    .navigation-menu{
+        display: block;
+    }
+
+    .navigation-avatar{
+        display: block;
+    }
+
+/**************end home login*************/
+
+/********************************list-title*************************/
+    
+
+    .menu-list-title li{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .list-alphabeta li{
+        padding-left: 10px;
+        padding-right: 8px;
+        padding-left: 7px;
+        margin-bottom: 10px;
+    }
+
+    .sort-list li.trans {
+        float: right;
+        margin-left: 10%;
+    }
+
+/***********detail-chapter*************/
+
+    .search-chapter{
+        max-width: 160px !important;
+    }
+
+    .select-chapter {
+        max-width: 100% !important;
+    }
+
+    .detail-list-chapter img{
+        width: 450px !important;
+    }
+
+    .like-facebook{
+        width: 55% !important;
+    }
+
+    .like-google{
+        margin-left: 35% !important;
+    }
+}
+/*  #Mobile (Portrait) 320px
+/* -------------------------------------------------------------------------- */
+ @media only screen and (min-width: 100px) and (max-width: 479px) {
+
+/*mycollection page*/
+    .comic-statistics-wrap .col-md-3 {
+        border: none;
+        padding-left: 0px;
+    }
+
+    .btn-post-new-wrap .col-md-12 button{
+        margin-bottom: 15px;
+    }
+
+    .item-name{
+        text-align: left;
+    }
+
+    .statistics-value {
+        margin-right: 10px;
+    }
+/*end mycollection page*/
+
+/*user page*/
+    .info{
+        padding-left: 0px;
+    }
+    .username{
+        padding-left: 15px;
+    }
+/*end user page*/
+
+/*followlist page*/
+
+    .follow-list-header .col-md-8{
+        width: 100%;
+    }
+
+    .follow-list-header .col-md-4{
+        width: 100%;
+    }
+
+    .follow-list-header{
+        padding-bottom: 15px;
+    }
+
+    .follow-list-wrap .col-md-5{
+        width: 50%;
+        float: left;
+    }
+
+    .follow-list-wrap .col-md-5 img{
+        display: none;
+    }
+
+    .follow-list-wrap .col-md-5 span{
+        margin-left: 0px;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .follow-list-wrap .col-md-3{
+        width: 20%;
+        float: left;
+    }
+
+    .follow-list-wrap .col-md-4{
+        width: 30%;
+        float: right;
+    }
+
+    .follow-list-wrap .col-md-4 > span{
+        display: none;
+    }
+
+    .follow-list-pagi li {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .follow-list-wrap .col-md-3 span{
+        margin-left: 0px;
+    }
+/*end followlist page*/
+
+/*linkchapter page*/
+    .done-upload-btn{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .input-page-num input {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .link-wrap .col-md-8{
+        width: 100%;
+    }
+
+    .type-link-list {
+        padding-left: 15px;
+    }
+
+    .link-wrap{
+        display: inline-block; 
+        width: 100%;
+    }
+    
+    .link-wrap .col-md-4 span{
+        display: inline-block; 
+        width: 100px;
+    }
+
+    .link-wrap .col-md-8{
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .link-wrap .col-md-8 input{
+        width: 100%;
+    }
+/*end linkchapter page*/
+
+/*newchapter page*/
+    .create-chapter-wrap .col-md-3 input {
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .create-chapter-wrap .col-md-6 input {
+        max-width: 100%;
+        float: right;
+        margin-bottom: 15px;
+    }
+
+    .create-chapter-wrap .col-md-3 .btn-create-chapter {
+        max-width: 100%;
+        margin-right: 15px;
+    }
+
+    .create-chapter-wrap .col-md-3:last-child{
+        padding-left: 30px;
+    }
+
+    .chap-no{
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .chap-name{
+        max-width: 100%;
+        float: right;
+        margin-bottom: 15px;
+    }
+
+    .chapter-wrap .col-md-3:last-child{
+        padding-left: 30px;
+    }
+/*end newchapter page*/
+
+/*new story page*/
+    .back-top{
+        bottom: 15px;
+    }
+    
+    .up-from-url-btn span{
+        margin-left: 30px;
+    }
+
+    .up-from-pc-btn span{
+        margin-left: 30px;
+    }
+
+    .up-from-url-btn img{
+        margin-right: 30px;
+    }
+
+    .up-from-pc-btn img{
+        margin-right: 30px;
+    }
+
+    .btn-up-comic{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .up-from-pc-btn{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .up-from-url-btn{
+        width: 100%;
+    }
+/*end new story page*/
+
+/*login page*/
+    .logo{
+        margin-left: 25px;
+        background-size: 50%;
+        width: auto;
+    }
+    .form-wrap{
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .ttdd-label{
+        font-size: 18px;
+    }
+
+    .forget-pass{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .login-form-textbox{
+        font-size: 20px;   
+        height: 44px;
+        margin-bottom: 40px;
+    }
+/*end login page*/
+
+/*item-detail page*/
+    .chap-list-header{
+        margin-bottom: 25px;
+    }
+    .chap-list li:first-child .col-md-8{
+        padding-left: 15px;
+    }
+
+    .chap-list li:first-child .col-md-2:last-child{
+        padding-right: 15px;
+    }
+
+    .rate li button span {
+        font-size: 25px !important;
+    }
+    
+    .chap-list .row{
+        margin: 0px;
+    }
+    
+    .follow-btn, .favorite-btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .rate li button span {
+        font-size: 32px;
+    }
+
+    .comic-image-wrap{
+        width: 100%;
+    }
+    
+    .comic-image{
+        margin-bottom: 40px;
+    }
+
+    .chap-list .col-md-8{
+        width: 70%;
+        float: left;
+        padding-left: 0px;
+    }
+
+    .chap-list .col-md-2{
+        width: 15%;
+        float: left;
+    }
+
+    .up-date-col{
+        display: none;
+    }
+
+    .up-date{
+        display: none;
+    }
+
+    .comic-info-wrap{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .goto-chap-wrap{
+        width: 100%;
+    }
+
+    .btn-goto {
+        float: left;
+    }
+/*end item-detail page*/
+
+
+/**************home page*************/ 
+    ul.main-nav li.active{
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 50px;
+    }
+
+    ul.main-nav li.active a:hover{
+        border-radius: 0px;
+    }
+
+    ul.main-nav li{
+        width: 99%;
+        border-radius: 0px;
+    }
+
+    ul.main-nav li a{
+        padding-left: 25px;
+    }
+
+    ul.main-nav li a:hover{
+        border-radius: 0px;
+    }
+
+    .icon-menu-list{
+        display: none;
+    }
+
+    .menu-header-comic {
+        margin-top: 50px;
+        display: none;
+    }
+
+    .fanpage{
+        width: 280px !important;
+        margin-top: 50px;
+    }
+
+    .footer-top{
+        margin-top: 160px !important;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .info-comic h4{
+        line-height: 16px;
+    }
+
+    .login-comic {
+        width: 70px;
+    }
+
+    .blog-content h5 {
+        line-height: 16px;
+    }
+
+    .facebook-fanpage{
+        top: 0px;
+        margin-top: 320px;
+    }
+
+    .list-category-comic li {
+        display: inline-block;
+        width: 50%;
+        min-width: 0px;
+    }
+/******************end home page******************/
+
+/******************home login******************/
+    .login-comic-active {
+        width: 62%;
+        display: none;
+    }
+
+     .icon-notification{
+        margin-left: -81px;
+    }
+
+    .avatar {
+        margin-right: 22%;
+    }
+
+    .sort-list li.trans {
+        display: none;
+    }
+
+    .sort-list-comic .group-trans {
+        display: none;
+    }
+
+    .sort-list-comic .new-chap {
+        width: 15%;
+        margin-top: 0px;
+    }
+
+    .menu-offcanvas{
+        display: block;
+    }
+
+    .menu-link{
+        display: block;
+    }
+
+    .logo-comic{
+        margin-top: 60px;
+    }
+
+    .navigation-menu{
+        display: block;
+    }
+
+    .navigation-avatar{
+        display: block;
+    }
+
+
+/******************end home login******************/
+
+/***********************list title*****************/
+
+    .menu-list-title li{
+        width: 100%;
+        margin-bottom: 10px;
+        padding-left: 8px;
+    }
+
+    .list-alphabeta li{
+        margin-bottom: 10px;
+    }
+
+/***********detail-chapter*************/
+
+    .select-chapter {
+        width: 100%;
+    }
+
+    .btn-pre{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn-next{
+        width: 100%;
+        margin-top: 20px !important;
+        margin-right: 0px !important;
+    }
+
+     .detail-list-chapter img {
+        width: 280px;
+    }
+
+    .like-facebook{
+        width: 40% !important; 
+    }
+
+    .like-google{
+        margin-left: 30% !important;
+    }
+
+}
+
+/***********************end list title*********************/
