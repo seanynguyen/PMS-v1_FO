@@ -4,20 +4,21 @@ importCss({
         'bootstrap-theme.min.css',
         'alertify.core.css',
         'alertify.bootstrap.css',
-        'font-awesome.min.css',
+        'font-awesome.css',
         'owl.carousel.css',
         'owl.transitions.css',
-        'summernote.css',
-        'summernote-bs3.css'
+/*        'summernote.css',
+        'summernote-bs3.css',*/
+        'bootstrap-responsive.min.css'
     ],
     customs: [
         // teamplate will use
-        'style.css',
         'pages/dashboard.css',
         'pages/faq.css',
         'pages/plans.css',
         'pages/reports.css',
-        'pages/signin.css'
+        'product.css',
+        'style.css'
     ]
 });
 
@@ -85,6 +86,7 @@ importJs({
         'app/service/resource-service.js',
 
         //Controller
+        'app/controller/products-controller.js',
         'app/controller/product-controller.js'
 
     ]
