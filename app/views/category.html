@@ -1,0 +1,33 @@
+<div class="container" ng-controller="CategoryCtrl">
+    <div class="widget widget-table action-table">
+        <div class="widget-header"> <i class="icon-th-list"></i>
+            <h3>List category</h3>
+        </div>
+        <!-- /widget-header -->
+        <div class="widget-content">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th width="300">Name</th>
+                        <th>Description</th>
+                        <th class="td-actions"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="item">
+                        <td>
+                            <input type="text" ng-model="item.name" ng-show="item.isEdit" /><span ng-show="!item.isEdit">{{item.name}}</span>
+                        </td>
+                        <td>
+                            <input type="text" ng-model="item.description"  ng-show="item.isEdit" /><span ng-show="!item.isEdit">{{item.description}}</span>
+                        </td>
+                        <td class="td-actions"><span ng-click="editCategory(item)" class="btn btn-small btn-success"><i ng-class="{'btn-icon-only icon-pencil': !item.isEdit, 'btn-icon-only icon-save': item.isEdit}"></i></span><span ng-click="deleteCategory(item)" class="btn btn-danger btn-small"><i class="btn-icon-only icon-trash"></i></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- /widget-content -->
+    </div>
+    <!-- /widget -->
+</div>

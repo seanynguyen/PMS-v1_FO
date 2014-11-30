@@ -14,7 +14,7 @@ var app = angular.module('app', [
 
 app.value('$appConfig', {
     version: '0.0.1',
-    host: 'http://192.168.1.192:8080/PMS-v1/PMS',
+    host: 'http://localhost:8080/PMS-v1/app',
     dateFormat: 'dd/MM/yyyy',
     fullDateFormat: 'dd/MM/yyyy - HH:mm:ss',
     getImageUrl: function(relativeUrl) {

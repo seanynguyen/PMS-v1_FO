@@ -7,8 +7,8 @@ importCss({
         'font-awesome.css',
         'owl.carousel.css',
         'owl.transitions.css',
-/*        'summernote.css',
-        'summernote-bs3.css',*/
+        /*        'summernote.css',
+                'summernote-bs3.css',*/
         'bootstrap-responsive.min.css'
     ],
     customs: [
@@ -17,6 +17,7 @@ importCss({
         'pages/faq.css',
         'pages/plans.css',
         'pages/reports.css',
+        'pages/fullcalendar.css',
         'product.css',
         'style.css'
     ]
@@ -57,6 +58,10 @@ importJs({
         'lib/chart.min.js',
         'lib/excanvas.min.js',
         'lib/faq.js',
+        //Calendar
+        'lib/fullcalendar.min.js'
+
+
 
         // template will use
 
@@ -86,6 +91,7 @@ importJs({
         'app/service/resource-service.js',
 
         //Controller
+        'app/controller/category-controller.js',
         'app/controller/products-controller.js',
         'app/controller/product-controller.js'
 

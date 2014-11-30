@@ -1,11 +1,11 @@
 'use strict';
 app.factory('ProductFactory', ['$http', '$appConfig',
     function(http, appConfig) {
-        var url = appConfig.host + '/itemService';
+        var url = appConfig.host + '/item';
         return {
-            demo: function() {
+            getProductById: function(id) {
                 return http({
-                    url: url + '/1',
+                    url: url + '/'+id,
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json'

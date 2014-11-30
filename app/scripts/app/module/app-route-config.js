@@ -5,6 +5,8 @@ app.config(['$routeProvider', function(routeProvider) {
         templateUrl: 'views/products.html',
     }).when('/product/:id', {
         templateUrl: 'views/product.html',
+    }).when('/category', {
+        templateUrl: 'views/category.html',
     }).otherwise({
         redirectTo: '/product'
     });

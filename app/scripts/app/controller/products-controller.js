@@ -4,12 +4,6 @@ app.controller('ProductsCtrl', ['$scope',
     'AlertService',
     'ProductFactory',
     function(scope, location, alertService, productFactory) {
-        function demo() {
-            /*          productFactory.demo().success(function(data){
-                            console.log(data);
-                        }).error();*/
-        }
-        demo();
         scope.editProduct = function() {
             location.path('/product/1');
         };
