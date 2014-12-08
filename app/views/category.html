@@ -14,7 +14,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="item">
+                    <tr class="item" ng-repeat="item in categories">
                         <td>
                             <input type="text" ng-model="item.name" ng-show="item.isEdit" /><span ng-show="!item.isEdit">{{item.name}}</span>
                         </td>
@@ -23,7 +23,7 @@
                         </td>
                         <td class="td-actions"><span ng-click="editCategory(item)" class="btn btn-small btn-success"><i ng-class="{'btn-icon-only icon-pencil': !item.isEdit, 'btn-icon-only icon-save': item.isEdit}"></i></span><span ng-click="deleteCategory(item)" class="btn btn-danger btn-small"><i class="btn-icon-only icon-trash"></i></span>
                         </td>
-                    </tr>
+                    </tr>                    
                 </tbody>
             </table>
         </div>

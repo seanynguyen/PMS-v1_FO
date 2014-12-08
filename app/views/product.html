@@ -38,16 +38,16 @@
             <label class="control-label">Item price</label>
             <div class="controls">
                 <div class="btn-group">
-                    <select ng-model="itemPrice" ng-options="itemPrice.statusName for itemPrice in itemPrices">
+                    <select ng-model="status" ng-options="status.statusName for status in listStatus">
                     </select>&nbsp;&nbsp;&nbsp;
-                    <input type="text" class="span2" disabled="true" ng-model="itemPrice.price">&nbsp;&nbsp;&nbsp;vnđ
+                    <input type="text" class="span2" ng-model="priceTemp">&nbsp;&nbsp;&nbsp;vnđ
                 </div>
             </div>
             <!-- /controls -->
         </div>
         <!-- /control-group -->                      
         <div class="control-group">
-            <span ng-click="addItemPrice(itemPrice)" class="btn btn-small btn-success"><i class="icon-chevron-down"></i>&nbsp;&nbsp;Add item price</span>
+            <span ng-click="addItemPrice(status)" class="btn btn-small btn-success"><i class="icon-chevron-down"></i>&nbsp;&nbsp;Add item price</span>
         </div>
         <!-- /control-group -->
     </div>
@@ -68,12 +68,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="item" ng-repeat="status in listStatus">
-                        <td>{{status.statusName}}</td>
+                    <tr class="item" ng-repeat="itemPrice in itemPrices">
+                        <td>{{itemPrice.statusName}}</td>
                         <td>
-                            <span><img src="img/icon-cafe.png">{{status.price}}</span>
+                            <span><img src="img/icon-cafe.png">{{itemPrice.price}}</span>
                         </td>
-                        <td class="td-actions"><span ng-click="deleteItemPriceSelected(status.id)" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"></i></span>
+                        <td class="td-actions"><span ng-click="deleteItemPriceSelected(itemPrice)" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"></i></span>
                         </td>
                     </tr>
                 </tbody>
@@ -85,7 +85,8 @@
 
     <!-- /control-group -->
     <div class="form-actions">
-        <button type="submit" class="btn btn-primary">Save</button>
+        <button class="btn btn-primary" ng-click="createProduct()" ng-show="isCreate">Create</button>
+        <button class="btn btn-primary" ng-click="editProduct()" ng-show="!isCreate">Save edit</button>
         <button class="btn">Cancel</button>
     </div>
 </div>

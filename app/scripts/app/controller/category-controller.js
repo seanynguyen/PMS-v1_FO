@@ -2,10 +2,15 @@
 app.controller('CategoryCtrl', ['$scope',
     '$location',
     'AlertService',
-    function(scope, location, alertService) {
-        scope.item = {
-            'name': 'category 1',
-            'description': 'description of category 1'
+    'CategoryFactory',
+    function(scope, location, alertService, categoryFactory) {
+        scope.categories = [];
+        loadCategory();
+        function loadCategory() {
+            categoryFactory.loadCategory().success(function(data) {
+                scope.categories = data;
+                console.log(data);
+            }).error(alertService.onError);
         };
         scope.editCategory = function(item) {
             if (!item.isEdit) {
@@ -25,6 +30,6 @@ app.controller('CategoryCtrl', ['$scope',
                     alertify.success('delete success');
                 }
             });
-        }
+        };
     }
 ]);

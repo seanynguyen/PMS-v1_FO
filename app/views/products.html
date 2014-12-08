@@ -15,26 +15,14 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="item">
-                        <td>Cafe</td>
+                    <tr class="item" ng-repeat="item in products">
+                        <td>{{item.name}}</td>
                         <td>
-                            <span><img src="img/icon-cafe.png">30.000</span>
-                            <span><img src="img/icon-cafe.png">30.000</span>
-                            <span><img src="img/icon-cafe.png">30.000</span>
+                            <span ng-repeat="itemPrice in item.itemPrices"><img src="img/icon-cafe.png">{{itemPrice.price}}</span>
                         </td>
-                        <td class="td-actions"><span ng-click="editProduct()" class="btn btn-small btn-success"><i class="btn-icon-only icon-pencil"></i></span><span ng-click="deleteProduct()" class="btn btn-danger btn-small"><i class="btn-icon-only icon-trash"></i></span>
+                        <td class="td-actions"><span ng-click="editProduct(item.id)" class="btn btn-small btn-success"><i class="btn-icon-only icon-pencil"></i></span><span ng-click="deleteProduct(item.id)" class="btn btn-danger btn-small"><i class="btn-icon-only icon-trash"></i></span>
                         </td>
-                    </tr>
-                    <tr class="item">
-                        <td>Cafe</td>
-                        <td>
-                            <span><img src="img/icon-cafe.png">30.000</span>
-                            <span><img src="img/icon-cafe.png">30.000</span>
-                            <span><img src="img/icon-cafe.png">30.000</span>
-                        </td>
-                        <td class="td-actions"><span ng-click="editProduct()" class="btn btn-small btn-success"><i class="btn-icon-only icon-pencil"></i></span><span ng-click="deleteProduct()" class="btn btn-danger btn-small"><i class="btn-icon-only icon-trash"></i></span>
-                        </td>
-                    </tr>                    
+                    </tr>                  
                 </tbody>
             </table>
         </div>

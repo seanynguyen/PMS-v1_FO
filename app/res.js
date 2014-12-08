@@ -82,6 +82,7 @@ importJs({
 
         //Factory
         'app/factory/product-factory.js',
+        'app/factory/category-factory.js',
         'app/factory/account-factory.js',
 
         //Service

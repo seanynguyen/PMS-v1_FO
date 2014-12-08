@@ -4,16 +4,27 @@ app.controller('ProductsCtrl', ['$scope',
     'AlertService',
     'ProductFactory',
     function(scope, location, alertService, productFactory) {
-        scope.editProduct = function() {
-            location.path('/product/1');
+        scope.pruducts = [];
+        getProducts();
+        function getProducts() {
+            productFactory.getProducts().success(function(data){
+                console.log(data);
+                scope.products = data;
+            }).error(alertService.onError);
+        };
+        scope.editProduct = function(id) {
+            location.path('/product/'+id);
         };
         scope.createProduct = function() {
             location.path('/product/create');
         };
-        scope.deleteProduct = function() {
+        scope.deleteProduct = function(id) {
             alertService.confirm('Bạn có muốn xóa!', function(e) {
                 if (e) {
-                    alertify.success('Xóa thành công');
+                    productFactory.deleteProduct(id).success(function(){
+                        alertify.success('Xóa thành công');
+                        getProducts();
+                    }).error(alertService.onError);
                 }
             });
         }
